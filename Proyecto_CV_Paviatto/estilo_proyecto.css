@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+   }
+
+header {
+    background-color: rgb(5, 219, 105);
+    padding: 20px;
+    color: rgb(0, 38, 14);
+  }
+.img-fluid {
+    width:40%;
+    max-width: 200px;
+    max-height: 200px;
+    background-image: url(profile-picture.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 25px;
+    left: 4%;
+   }
+
+#nombre {
+    font-size: 4rem;
+    margin:0%;
+    padding: 5px;
+    font-family: 'Satisfy', cursive;
+    font-weight: lighter;
+    font-stretch: extra-expanded;
+}
+
+
+#subtitulo1 {
+    font-size: 12;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-stretch: extra-expanded;
+    }
+
+section {
+    background-color: rgb(191, 201, 195);
+    padding-top: 40px;
+    text-align: justify;
+    font-size: 11px;
+    color: rgb(10, 11, 11);
+    float: left;
+    line-height:15px;
+   }
+
+#section {
+    padding-top: 30px;
+}
+
+
+.iconos {
+    background-image: url(age-icon.jpg);
+    background-size: cover;
+    position: absolute;
+    text-align: left;
+   }
+
+.info {
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+   }
+
+article {
+    margin-left:40px;
+    line-height:15px;
+}
+
+#subtitulo2 {
+    font-size: 15;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-stretch: extra-expanded;
+    margin-left:40px;
+    margin-top: 35px;
+}
+
+.underline {
+    border: 1px solid rgb(0, 38, 14);
+}
+
+.bold {
+    font-weight: bold;
+
+}
+
+.interlineado-simple {
+    line-height:9px
+}
+
+form {
+    background-color: bisque;
+    border-color: rgb(118, 243, 177);
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 1.5em;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#contact_form {
+    display: none;
+}
+
+.form_container {
+    width: 100%;
+    display: grid;
+    gap: 2px;
+    grid-auto-columns: 100%;
+}
+
+.form_title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2px;
+    padding: 2px;
+}
+
+#contactame {
+    font-size: 15;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-stretch: extra-expanded;
+    background-color: bisque;
+    border-color: rgb(118, 243, 177);
+}
